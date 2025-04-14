@@ -18,7 +18,10 @@ const beaniePaths = {
   mask: './videos/DissMask.mp4',
   web: './videos/DissWeb.mp4',
   spider: './videos/DissWeb.mp4',
-  doom: './videos/DissDoom.mp4',
+  brown: './videos/DissCarhar.mp4',
+  redcap: './videos/DissMLBCap.mp4',
+  spidey: './videos/DissSpidey.mp4',
+  cartman: './videos/DissCartMan.mp4',
 }
 const videoEl = document.getElementById('video')
 videoEl.src = beaniePaths.flognaw
