@@ -22,6 +22,7 @@ const beaniePaths = {
   redcap: './videos/DissMLBCap.mp4',
   spidey: './videos/DissSpidey.mp4',
   cartman: './videos/DissCartMan.mp4',
+  frog: './videos/DissFrog.mp4',
 }
 const videoEl = document.getElementById('video')
 videoEl.src = beaniePaths.flognaw
