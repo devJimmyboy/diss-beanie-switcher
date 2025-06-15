@@ -14,6 +14,7 @@ const beaniePaths = {
   flognaw: './videos/DissYellowPatch.mp4',
   green: './videos/DissYellowPatch.mp4',
   snorlax: './videos/DissSnorlax.mp4',
+  doom: './videos/DissDoom.mp4',
   onepiece: './videos/DissOnePiece.mp4',
   mask: './videos/DissMask.mp4',
   web: './videos/DissWeb.mp4',
