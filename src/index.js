@@ -11,6 +11,7 @@ chat.onConnect(() => {
 chat.connect()
 
 const beaniePaths = {
+  frog: './videos/DissFrog.mp4',
   flognaw: './videos/DissYellowPatch.mp4',
   green: './videos/DissYellowPatch.mp4',
   snorlax: './videos/DissSnorlax.mp4',
@@ -23,10 +24,9 @@ const beaniePaths = {
   redcap: './videos/DissMLBCap.mp4',
   spidey: './videos/DissSpidey.mp4',
   cartman: './videos/DissCartMan.mp4',
-  frog: './videos/DissFrog.mp4',
 }
 const videoEl = document.getElementById('video')
-videoEl.src = beaniePaths.flognaw
+videoEl.src = beaniePaths.frog
 
 chat.onMessage((channel, user, message, msg) => {
   console.log('Message received:', message)
